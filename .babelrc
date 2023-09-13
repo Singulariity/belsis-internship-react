@@ -1,0 +1,4 @@
+{
+	"presets": ["react", "es2020"],
+	"plugins": ["transform-decorators-legacy", "transform-class-properties"]
+}

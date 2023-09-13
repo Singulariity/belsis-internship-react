@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	min-width: 100vh;
+	overflow: hidden;
+}
+
+.map {
+	height: 100vh;
+}
+
+.ol-draw_polygon {
+	top: 100px;
+	left: 0.5em;
+}
+.ol-draw_linestring {
+	top: 140px;
+	left: 0.5em;
+}
+.ol-draw_point {
+	top: 180px;
+	left: 0.5em;
+}
+.ol-modify {
+	top: 250px;
+	left: 0.5em;
+}
+.ol-edit {
+	top: 290px;
+	left: 0.5em;
+}
+.ol-delete {
+	top: 330px;
+	left: 0.5em;
+}
+.ol-featurelist {
+	top: 0.5em;
+	right: 50vw;
+}
+.ol-layerlist {
+	top: 0.5em;
+	right: 0.5em;
+}
